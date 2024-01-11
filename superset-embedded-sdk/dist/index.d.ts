@@ -13,6 +13,9 @@ export type UiConfigType = {
         visible?: boolean;
         expanded?: boolean;
     };
+    urlParams?: {
+        [key: string]: any;
+    };
 };
 export type EmbedDashboardParams = {
     /** The id provided by the embed configuration UI in Superset */
