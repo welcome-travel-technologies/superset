@@ -1,3 +1,8 @@
-bundle
-dist
-lib
+# bundle
+# dist
+# lib
+
+!*.entry.js
+!*.js.map
+!*.min.js
+!dist
